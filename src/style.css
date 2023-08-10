@@ -1,0 +1,163 @@
+body {
+  height: 400vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: red;
+  margin-right: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+li {
+  display: inline;
+}
+a:hover {
+  color: black;
+}
+h1,
+.first-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: grey;
+  border: 3px groove black;
+  border-radius: 1rem;
+  margin: 1rem 35rem;
+}
+.first-paragraph {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  margin-left: 3rem;
+  color: black;
+  font-weight: bolder;
+}
+.user-logo {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+#user {
+  display: flex;
+}
+.second-paragraph {
+  margin-left: 1rem;
+  font-size: large;
+}
+#about,
+#comments {
+  border: 0.5rem groove red;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.discound {
+  height: 50vh;
+  width: 30vw;
+  flex-wrap: wrap;
+}
+.imgs {
+  width: 20rem;
+  height: 10rem;
+}
+.firstProduce,
+.secondProduce,
+.thirdProduce,
+.fourthProduce,
+.fifthProduce,
+.sixthProduce {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.div,
+.purchase,
+.reset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.removeButton,
+.favouriteButton {
+  margin-top: 1rem;
+}
+button,
+input[type="submit"],
+input[type="button"] {
+  border-radius: 1rem;
+}
+.heart {
+  display: none;
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 22px;
+  height: 40px;
+  border-radius: 50px 50px 0 0;
+  background: red;
+}
+
+.heart::before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart::after {
+  left: 29px;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+.active {
+  display: flex;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.reset {
+  margin-left: 1rem;
+}
+#total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
