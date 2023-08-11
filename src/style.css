@@ -161,3 +161,11 @@ footer {
   color: red;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.details {
+  display: none;
+}
+.showDetails {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

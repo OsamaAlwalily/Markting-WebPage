@@ -58,33 +58,33 @@ favouriteBtn[5].addEventListener("click", () => {
 //---------------------------------------------------------------------------
 //Remove Produce Button
 removeProduce[0].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("firstProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[0];
+  details.classList.toggle("showDetails");
 });
 
 removeProduce[1].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("secondProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[1];
+  details.classList.toggle("showDetails");
 });
 
 removeProduce[2].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("thirdProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[2];
+  details.classList.toggle("showDetails");
 });
 
 removeProduce[3].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("fourthProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[3];
+  details.classList.toggle("showDetails");
 });
 
 removeProduce[4].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("fifthProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[4];
+  details.classList.toggle("showDetails");
 });
 
 removeProduce[5].addEventListener("click", () => {
-  const produce = document.getElementsByClassName("sixthProduce")[0];
-  produce.remove();
+  const details = document.getElementsByClassName("details")[5];
+  details.classList.toggle("showDetails");
 });
 
 //---------------------------------------------------------------------------
@@ -100,7 +100,7 @@ addBtn[0].addEventListener("click", (e) => {
     firstTotalPrice = first * firstPrice;
     firstTotal.innerText = `Selected ${first} ${
       first == 1 || first == 0 ? `burger` : `burgers`
-    } \nPrice: ${firstTotalPrice}`;
+    } \nPrice: ${firstTotalPrice} $`;
   }
 });
 
@@ -115,7 +115,7 @@ addBtn[1].addEventListener("click", (e) => {
     secondTotalPrice = second * secondPrice;
     secondTotal.innerText = `Selected ${second} ${
       second == 1 || second == 0 ? `burger` : `burgers`
-    } \nPrice: ${secondTotalPrice}`;
+    } \nPrice: ${secondTotalPrice} $`;
   }
 });
 
@@ -130,7 +130,7 @@ addBtn[2].addEventListener("click", (e) => {
     thirdTotalPrice = third * thirdPrice;
     thirdTotal.innerText = `Selected ${third} ${
       third == 1 || third == 0 ? `burger` : `burgers`
-    } \nPrice: ${thirdTotalPrice}`;
+    } \nPrice: ${thirdTotalPrice} $`;
   }
 });
 
@@ -145,7 +145,7 @@ addBtn[3].addEventListener("click", (e) => {
     fourthTotalPrice = fourth * fourthPrice;
     fourthTotal.innerText = `Selected ${fourth} ${
       fourth == 1 || fourth == 0 ? `burger` : `burgers`
-    } \nPrice: ${fourthTotalPrice}`;
+    } \nPrice: ${fourthTotalPrice} $`;
   }
 });
 
@@ -160,7 +160,7 @@ addBtn[4].addEventListener("click", (e) => {
     fifthTotalPrice = fifth * fifthPrice;
     fifthTotal.innerText = `Selected ${fifth} ${
       fifth == 1 || fifth == 0 ? `burger` : `burgers`
-    } \nPrice: ${fifthTotalPrice}`;
+    } \nPrice: ${fifthTotalPrice} $`;
   }
 });
 
@@ -175,7 +175,7 @@ addBtn[5].addEventListener("click", (e) => {
     sixthTotalPrice = sixth * sixthPrice;
     sixthTotal.innerText = `Selected ${sixth} ${
       sixth == 1 || sixth == 0 ? `burger` : `burgers`
-    } \nPrice: ${sixthTotalPrice}`;
+    } \nPrice: ${sixthTotalPrice} $`;
   }
 });
 
