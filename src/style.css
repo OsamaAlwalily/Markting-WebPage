@@ -239,3 +239,15 @@ footer {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+#sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
