@@ -250,3 +250,6 @@ select {
   height: 2rem;
   margin-top: 0.5rem;
 }
+h2 {
+  color: grey;
+}
