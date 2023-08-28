@@ -199,6 +199,7 @@ footer {
   margin-left: 1rem;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
   margin-top: 1rem;
+  border-radius: 1rem;
 }
 #comments {
   display: flex;
