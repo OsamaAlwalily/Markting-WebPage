@@ -25,67 +25,21 @@ let firstTotalPrice = 0,
   sixthTotalPrice = 0;
 //---------------------------------------------------------------------------
 //Favourite Button
-favouriteBtn[0].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[0];
-  heart.classList.toggle("active");
-});
-
-favouriteBtn[1].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[1];
-  heart.classList.toggle("active");
-});
-
-favouriteBtn[2].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[2];
-  heart.classList.toggle("active");
-});
-
-favouriteBtn[3].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[3];
-  heart.classList.toggle("active");
-});
-
-favouriteBtn[4].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[4];
-  heart.classList.toggle("active");
-});
-
-favouriteBtn[5].addEventListener("click", () => {
-  const heart = document.getElementsByClassName("heart")[5];
-  heart.classList.toggle("active");
-});
+for (let i = 0; i <= 5; i++) {
+  favouriteBtn[i].addEventListener("click", () => {
+    const heart = document.getElementsByClassName("heart")[i];
+    heart.classList.toggle("active");
+  });
+}
 
 //---------------------------------------------------------------------------
 //Remove Produce Button
-removeProduce[0].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[0];
-  details.classList.toggle("showDetails");
-});
-
-removeProduce[1].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[1];
-  details.classList.toggle("showDetails");
-});
-
-removeProduce[2].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[2];
-  details.classList.toggle("showDetails");
-});
-
-removeProduce[3].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[3];
-  details.classList.toggle("showDetails");
-});
-
-removeProduce[4].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[4];
-  details.classList.toggle("showDetails");
-});
-
-removeProduce[5].addEventListener("click", () => {
-  const details = document.getElementsByClassName("details")[5];
-  details.classList.toggle("showDetails");
-});
+for (let i = 0; i <= 5; i++) {
+  removeProduce[i].addEventListener("click", () => {
+    const details = document.getElementsByClassName("details")[i];
+    details.classList.toggle("showDetails");
+  });
+}
 
 //---------------------------------------------------------------------------
 //Add product Button
